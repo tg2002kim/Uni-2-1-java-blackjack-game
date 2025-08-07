@@ -1,16 +1,28 @@
-Black Jack game
+# Blackjack Game
 
+This project is a simple **Blackjack card game** developed as part of a Java Programming course assignment in 2024. Implemented using **Java** and the **Swing GUI toolkit**, it was designed to reinforce key concepts in **object-oriented programming (OOP)** and **event-driven design**.
 
-This project was developed during the first semester of my second year (2024) as part of a Java Programming course assignment at university.
+---
 
-It is a simple Blackjack card game implemented using Java and the Swing GUI toolkit. The project aims to reinforce understanding of object-oriented programming (OOP), event-driven design, and GUI development in Java.
+## Key Features
 
-Key features include a betting system, win/loss tracking, and a user-friendly interface. The game allows players to compete against a dealer using standard Blackjack rules, including actions like hit, stay, and bust detection. The betting system requires the player to place a wager before each round, and results are reflected in both money and win rate updates.
+* **Betting System**: Players can place a wager before each round, with their money balance updating based on the outcome.
+* **Win/Loss Tracking**: The game automatically tracks wins, losses, and ties, and calculates the player's real-time win rate.
+* **Standard Blackjack Rules**: Includes core gameplay mechanics like **Hit** and **Stay**, along with automatic bust detection.
+* **User-Friendly Interface**: Provides visual feedback for game status, such as "Game Over" or "Not Enough Money."
+* **Modular Design**: The project features a clean, modular class structure with components like `Card`, `BlackJack`, and dedicated GUI controllers.
 
-Additional functionalities include automatic tracking of wins, losses, and ties, real-time win rate calculation, and visual feedback for game status (e.g., game over, not enough money). Although a multiplayer mode was considered, it was excluded due to gameplay constraints and the nature of Blackjack being inherently one-on-one.
+---
 
-The program structure demonstrates modular class design with core components such as `Card`, `BlackJack`, and GUI controllers. Techniques like random deck shuffling, dynamic event handling via anonymous inner classes, and card image rendering were utilized.
+## Technologies Used
 
-Throughout the development process, particular attention was given to gameplay logic accuracy and rule compliance. Several revisions were made to resolve issues such as incorrect win-rate calculations and betting logic. These iterations significantly improved the reliability and realism of the game.
+* **Language**: Java
+* **GUI**: Swing
 
-This project not only served as a hands-on exercise in Java GUI programming, but also provided practical experience in debugging, incremental design, and implementing user-centric interactions in a graphical application.
+---
+
+## What I Learned
+
+* **Debugging**: Gained practical experience in debugging and resolving issues like incorrect win-rate calculations and betting logic errors.
+* **Iterative Design**: Learned the importance of making incremental improvements to ensure gameplay logic is accurate and rules are followed.
+* **User-Centric Interaction**: Developed a better understanding of implementing user-centric interactions within a graphical application.
