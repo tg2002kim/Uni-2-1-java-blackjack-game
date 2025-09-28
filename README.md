@@ -1,3 +1,5 @@
+Dankook University, 2nd Year 1st Semester (Spring 2024)
+
 # Blackjack Game
 
 This project is a Blackjack card game developed as an assignment for a Java Programming course. Implemented using Java and the Swing GUI toolkit, it was designed to reinforce key concepts in object-oriented programming (OOP) and event-driven design.
